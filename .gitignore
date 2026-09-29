@@ -1,0 +1,19 @@
+# Prerequisites / CMake / Qt Build artifacts
+build/
+bin/
+lib/
+CMakeUserPresets.json
+
+# Clangd index & language server cache
+.cache/
+
+# JetBrains / CLion IDE files
+.idea/
+cmake-build-*/
+
+# macOS system files
+.DS_Store
+._*
+
+# VS Code (in case you or a collaborator open it in VS Code)
+.vscode/
